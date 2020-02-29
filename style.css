@@ -3,12 +3,12 @@ text-align: center;
 background-color: #eae7dc;
 }
 
-/*yellow block in the middle*/
+/*blue block in the middle*/
 #main {
   width: 1404px;
   height: 700px;
   margin: 50px auto;
-  background: #d8c3a5;
+  background: #e2f0ed;
   display: inline-block;
 }
 
