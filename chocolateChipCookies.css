@@ -22,11 +22,11 @@ h1{
 }
 
 #content{
-  width: 800px;
+  width: 60%;
   height: 1200px;
-  margin: 70px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
   background-color: white;
   display: inline-block;
   text-align: left;
@@ -35,7 +35,7 @@ h1{
 /*copyright*/
 #footer{
   clear: both;
-  padding: 10px;
+  padding: 3%;
   color: #ff3a19;
   text-align: right;
 }
@@ -43,7 +43,7 @@ h1{
 #nav{
   list-style-type: none;
   margin: 0;
-  padding: 10px;
+  padding: 1%;
   overflow: hidden;
   position: fixed;
   top: 0;
