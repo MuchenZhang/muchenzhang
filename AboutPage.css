@@ -5,14 +5,14 @@ background-color: #e2f0ed;
 
 #header{
   background-color: white;
-  margin: 80px;
+  margin: 5%;
 }
 
 /*yellow block in the middle*/
 #main2 {
-  width: 390px;
+  width: 45%;
   height: 500px;
-  margin: 60px auto;
+  margin: 7% auto;
   background: #e2f0ed;
   display: inline-block;
   float: left;
@@ -21,9 +21,9 @@ background-color: #e2f0ed;
 }
 
 #main{
-  width: 390px;
+  width: 45%;
   height: 500px;
-  margin: 70px auto;
+  margin: 7% auto;
   background: #e2f0ed;
   display: inline-block;
   float: right;
@@ -31,7 +31,7 @@ background-color: #e2f0ed;
 }
 
 #content{
-  width: 850px;
+  width: 60%;
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -81,7 +81,7 @@ h1{
 #nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 10px;
+  padding: 1%;
   overflow: hidden;
   position: fixed;
   top: 0;
