@@ -1,0 +1,97 @@
+body {
+text-align: center;
+background-color: #eae7dc;
+}
+
+/*yellow block in the middle*/
+#main {
+  width: 1404px;
+  height: 700px;
+  margin: 50px auto;
+  background: #e2f0ed;
+  display: inline-block;
+}
+
+/*Hi I'm Muchen, a ...*/
+h1{
+  font-family: "Lucida Console";
+  font: 40px;
+  left: 0;
+  line-height: 200px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  color: #ff3a19;
+}
+
+/*copyright*/
+#footer{
+  clear: both;
+  padding: 10px;
+  color: #ff3a19;
+  text-align: right;
+}
+
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  /*background-color: #0d97ac;*/
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn{
+  display: block;
+  color: #ff3a19;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+li a:hover, dropdown:hover .dropbtn{
+  background-color: #f8d8d5;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown content "fun stuff" */
+.dropdown-content2{
+  display: none;
+  position: relative;
+  max-width: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 10;
+  background-color: white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content2 {
+  display: block;
+}
+
+/*dropdown menu for "serious stuff"*/
+.dropdown-content1{
+  display: none;
+  position: relative;
+  max-width: 110px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 10;
+  background-color: white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content1 {
+  display: block;
+}

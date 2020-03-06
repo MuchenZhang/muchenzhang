@@ -1,0 +1,63 @@
+body {
+text-align: center;
+background-color: #e2f0ed;
+}
+
+#header{
+  background-color: white;
+  margin: 80px;
+}
+
+/*Chocolate Chip Cookies*/
+h1{
+  font-family: "Lucida Console";
+  font: 40px;
+  left: 0;
+  line-height: 15px;
+  margin-top: 0px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  color: #ff3a19;
+}
+
+#content{
+  width: 800px;
+  height: 1200px;
+  margin: 70px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+  display: inline-block;
+  text-align: left;
+}
+
+/*copyright*/
+#footer{
+  clear: both;
+  padding: 10px;
+  color: #ff3a19;
+  text-align: right;
+}
+
+#nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  /*background-color: #0d97ac;*/
+}
+
+li a, .dropbtn{
+  display: block;
+  color: #e85a4f;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+li a:hover, dropdown:hover .dropbtn{
+  background-color: #f8d8d5;
+}
