@@ -52,7 +52,7 @@ h1{
 /*This is created purely by html and CSS*/
 #aboutWebsite{
   color: #ff3a19;
-  padding: 0px;
+  padding: 1%;
   clear: both;
 }
 
@@ -69,7 +69,7 @@ h1{
 /*copyright*/
 #footer{
   clear: both;
-  padding: 0px;
+  padding: 1%;
   color: #ff3a19;
   text-align: right;
 }
