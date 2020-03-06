@@ -5,7 +5,7 @@ background-color: #e2f0ed;
 
 #header{
   background-color: white;
-  margin: 80px;
+  margin: 7%;
 }
 
 /*Recipes*/
@@ -22,11 +22,11 @@ h1{
 }
 
 #recipe1{
-  width: 390px;
+  width: 30%;
   height: 450px;
-  margin: 70px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
   background-color: white;
   display: inline-block;
   float: left;
@@ -34,11 +34,11 @@ h1{
 }
 
 #recipe2{
-  width: 390px;
+  width: 30%;
   height: 450px;
-  margin: 70px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 5%;
+  margin-left: 1%;
+  margin-right: 2%;
   background-color: white;
   display: inline-block;
   float: center;
@@ -46,11 +46,11 @@ h1{
 }
 
 #recipe3{
-  width: 390px;
+  width: 30%;
   height: 450px;
-  margin: 70px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 5%;
+  margin-left: 1%;
+  margin-right: 2%;
   background-color: white;
   display: inline-block;
   float: right;
@@ -60,7 +60,7 @@ h1{
 /*copyright*/
 #footer{
   clear: both;
-  padding: 10px;
+  padding: 2%;
   color: #ff3a19;
   text-align: right;
 }
@@ -72,7 +72,7 @@ h1{
 #nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 10px;
+  padding: 1%;
   overflow: hidden;
   position: fixed;
   top: 0;
