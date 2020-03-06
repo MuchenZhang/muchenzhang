@@ -6,7 +6,7 @@ background-color: #eae7dc;
 /*yellow block in the middle*/
 #main {
   width: 98%;
-  height: 700px;
+  height: 100%;
   margin: 50px auto;
   background: #e2f0ed;
   display: inline-block;
@@ -29,7 +29,7 @@ h1{
 /*copyright*/
 #footer{
   clear: both;
-  padding: 10px;
+  padding: 1%;
   color: #ff3a19;
   text-align: right;
 }
