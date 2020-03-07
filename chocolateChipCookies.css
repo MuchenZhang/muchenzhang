@@ -32,14 +32,6 @@ h1{
   text-align: left;
 }
 
-/*copyright*/
-#footer{
-  clear: both;
-  padding: 3%;
-  color: #ff3a19;
-  text-align: right;
-}
-
 #nav{
   list-style-type: none;
   margin: 0;
