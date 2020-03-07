@@ -41,13 +41,6 @@ p a:hover{
   background-color: #f8d8d5;
 }
 
-/*copyright*/
-#footer{
-  clear: both;
-  padding: 3%;
-  color: #ff3a19;
-  text-align: right;
-}
 
 #nav{
   list-style-type: none;
