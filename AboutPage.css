@@ -61,9 +61,36 @@ h1{
   color: #ff3a19;
 }
 
+a:link{
+  color: #ff3a19;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #ff3a19;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: #f8d8d5;
+}
+
+a:active {
+  text-decoration: none;
+}
+
 #emailBox{
   background-color: #ff755e;
   color: white;
+}
+
+/*copyright*/
+#footer{
+  clear: both;
+  padding: 1%;
+  color: #ff3a19;
+  text-align: right;
 }
 
 #home{
