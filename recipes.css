@@ -2,8 +2,6 @@ body{
   height: 100%;
   width: 100%;
   overflow-x: hidden;
-  margin-left: 0%;
-  margin-top: 0%;
   background-color: #eab4cf;
   /*background: linear-gradient(180deg, #eab4cf 0%, #b9c0f2 51%, #8ddeea 75%);*/
 }
