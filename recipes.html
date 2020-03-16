@@ -6,51 +6,96 @@
 </head>
 
 <body>
-  <div id="header">
-    <h1>My Recipes</h1>
-  </div>
-
- <div id="nav">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li class="dropdown">
-        <a href="#seriousStuff">Serious Stuff</a>
-        <div class="dropdown-content1">
-          <a href="updates.html">Updates</a>
-          <a href="stressed.html">Stressed?</a>
-      </li>
-
-      <li class="dropdown">
-        <a href="#" class="dropbtn">Fun Stuff</a>
-          <div class="dropdown-content2">
-        <a href="randomFacts.html">Random Facts</a>
-        <a href="recipes.html">Recipes</a>
-          </div>
-      </li>
-
-      <li><a href="AboutPage.html">About</a></li>
-    </ul>
-  </div>
+  <div id="nav">
+     <ul>
+       <li><a class="active" href="index.html">HOME</a></li>
+       <li><a href="#">PORTFOLIO</a></li>
+       <li><a href="#">RESUME</a></li>
+       <li><a href="recipes.html">RECIPES</a></li>
+       <li><a href="AboutPage.html">ABOUT</a></li>
+     </ul>
+   </div>
 
 <div id="content">
-  <div id="main">
-    <div id="recipe1">
-      <h3>Super Easy Chocolate Chip Cookies</h3>
-      <a href="chocolateChipCookies.html"><img src="CCC.JPG" alt="chocolate chip cookies" height=85% width=85%></a>
-    </div>
-    <div id="recipe2">
-     <h3>Cheese Bread</h3>
-      <a href="cheeseBread.html"><img src="cheeseBread.JPG" alt="cheese bread" height=85% width=85%></a>
-    </div>
-    <div id="recipe3">
-      <h3>Banana Cream Pie</h3>
-      <a href="bananaCream.html"><img src="bananaSlice2.JPG" alt="banana cream" height=85% width=85%></a>
-    </div>
-    <div id="recipe1">
-      <h3>Green Onion Savory Biscuits</h3>
-      <a href="biscuit.html"><img src="biscuit1.JPG" alt="green onion biscuits" height=85% width=85%></a>
+
+  <div id="main1">
+    <div id="header">
+      <h1>My Recipes</h1>
     </div>
   </div>
+
+  <div id="main2">
+    <div id="text1">
+    <p>I am a mega foodie</p>
+    </div>
+
+    <div id="text2">
+    <p>Baking is the same as coding, sometimes you don't know where the error is and you have to experiment over and over again.
+      Below you will find some recipes that I make frequently at home. They have been taste tested and approved by my family.
+      Feel free to try them out. </p>
+    </div>
+  </div>
+
+  <div id="main3">
+
+    <div id="text3">
+    <p>Top Recipes</p>
+    </div>
+
+    <div id="recipe1">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="CCC.JPG" alt="chocolate chip cookie" width=100% height=100%;>
+          </div>
+          <a href="chocolateChipCookies.html"><div class="flip-card-back">
+            <p>Chocolate Chip Cookies</p>
+          </div></a>
+        </div>
+      </div>
+    </div>
+
+    <div id="recipe2">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="cheeseBread.JPG" alt="cheese bread" width=100% height=100%;>
+          </div>
+          <a href="cheeseBread.html"><div class="flip-card-back">
+            <p>Cheese Bread</p>
+          </div></a>
+        </div>
+      </div>
+    </div>
+
+    <div id="recipe3">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="bananaSlice2.JPG" alt="banana cream pie" width=100% height=100%;>
+          </div>
+          <a href="bananaCream.html"><div class="flip-card-back">
+            <p>Banana Cream Pie</p>
+          </div></a>
+        </div>
+      </div>
+    </div>
+
+    <div id="recipe1">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="biscuit1.JPG" alt="biscuit" width=100% height=100%;>
+          </div>
+          <a href="biscuit.html"><div class="flip-card-back">
+            <p>Green Onion Savory Biscuit</p>
+          </div></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
 
 
 </div>
