@@ -9,26 +9,28 @@ body{
   /*background: linear-gradient(180deg, #eab4cf 0%, #b9c0f2 51%, #8ddeea 75%);*/
 }
 
-#header{
-  color: white;
-  text-align: center;
-  margin: 25%;
-  height: 27%;
-  width: 100%;
+#main1{
+  width:100%;
+  height:100%;
+  background: #eab4cf;
 }
 
-/*#main1{
-  height: 0.01%;
-  width: 100%;
-  background-color: #eab4cf;
-}*/
+#header{
+  font-size: 500%;
+  color: #ffffff;
+  margin-left: 28%;
+  text-align: center;
+  font-family: "Georgia";
+  font-weight: bold;
+  padding: 9%;
+  width: 25%
+}
+
 
 #main2{
   height: 75%;
   width: 100%;
-  background-color: white;
-  margin-top: -10%;
-  margin-bottom: 10%;
+  background: white;
 }
 
 #text1{
@@ -56,6 +58,7 @@ body{
 #main3{
   height: 100%;
   width: 100%;
+  background: #eab4cf;
 }
 
 /*Recipes*/
@@ -66,7 +69,7 @@ h1{
   left: 0;
   line-height: 15px;
   margin-top: 0px;
-  position: absolute;
+  position: relative;
   text-align: center;
   width: 100%;
   color: #ffffff;
@@ -84,10 +87,10 @@ h1{
 #recipe1{
   width: 27%;
   height: 50%;
-  margin-left: 6%;
+  /*margin-left: 6%;
   margin-right: 0%;
   margin-top: 0%;
-  margin-bottom: 3.5%;
+  margin-bottom: 3.5%;*/
   display: inline-block;
   float: left;
   text-align: center;
@@ -98,11 +101,10 @@ h1{
 #recipe2{
   width: 27%;
   height: 50%;
-  margin-left: 3.5%;
+  /*margin-left: 3.5%;
   margin-right: 0%;
   margin-top: 0%;
-  margin-bottom: 3.5%;
-  background-color: white;
+  margin-bottom: 3.5%;*/
   display: inline-block;
   float: center;
   text-align: center;
@@ -113,11 +115,10 @@ h1{
 #recipe3{
   width: 27%;
   height: 50%;
-  margin-left: 0%;
+  /*margin-left: 0%;
   margin-right: 6%;
   margin-top: 0%;
-  margin-bottom: 3.5%;
-  background-color: white;
+  margin-bottom: 3.5%;*/
   display: inline-block;
   float: right;
   text-align: center;
@@ -175,9 +176,9 @@ h1{
 
 
 
-#home{
+/*#home{
   text-align: right;
-}
+}*/
 
 #nav ul {
   list-style-type: none;
