@@ -1,61 +1,178 @@
-body {
-text-align: center;
-background-color: #e2f0ed;
+body{
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  margin-left: 0%;
+  margin-top: 0%;
+  background-color: #eab4cf;
+  /*background: linear-gradient(180deg, #eab4cf 0%, #b9c0f2 51%, #8ddeea 75%);*/
 }
 
 #header{
+  color: white;
+  text-align: center;
+  margin: 25%;
+  height: 27%;
+  width: 100%;
+}
+
+/*#main1{
+  height: 0.01%;
+  width: 100%;
+  background-color: #eab4cf;
+}*/
+
+#main2{
+  height: 75%;
+  width: 100%;
   background-color: white;
-  margin: 7%;
+  margin-top: -10%;
+  margin-bottom: 10%;
+}
+
+#text1{
+  position: relative;
+  top: 20%;
+  text-align: center;
+  font-size: 400%;
+  font-weight: 100;
+  color: black;
+  font-family: "Cambria";
+}
+
+#text2{
+  width: 70%;
+  position: relative;
+  top: 20%;
+  margin-left: 15%;
+  text-align: center;
+  font-size: 170%;
+  font-weight: 100;
+  color: black;
+  font: 170%/1.5 "Consolas";
+}
+
+#main3{
+  height: 100%;
+  width: 100%;
 }
 
 /*Recipes*/
 h1{
-  font-family: "Lucida Console";
-  font: 40px;
+  font-family: "Georgia";
+  font-weight: bold;
+  font-size: 500%;
   left: 0;
   line-height: 15px;
   margin-top: 0px;
   position: absolute;
   text-align: center;
   width: 100%;
-  color: #ff3a19;
+  color: #ffffff;
+}
+
+#text3{
+  color: white;
+  font-size: 400%;
+  font-family: "Georgia";
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2%;
 }
 
 #recipe1{
-  width: 30%;
-  height: 450px;
-  margin: 5%;
-  margin-left: 2%;
-  margin-right: 2%;
-  background-color: white;
+  width: 27%;
+  height: 50%;
+  margin-left: 6%;
+  margin-right: 0%;
+  margin-top: 0%;
+  margin-bottom: 3.5%;
   display: inline-block;
   float: left;
   text-align: center;
+  background-color: transparent;
+  color: #ff3a19;
 }
 
 #recipe2{
-  width: 30%;
-  height: 450px;
-  margin: 5%;
-  margin-left: 1%;
-  margin-right: 2%;
+  width: 27%;
+  height: 50%;
+  margin-left: 3.5%;
+  margin-right: 0%;
+  margin-top: 0%;
+  margin-bottom: 3.5%;
   background-color: white;
   display: inline-block;
   float: center;
   text-align: center;
+  background-color: transparent;
+  color: #ff3a19;
 }
 
 #recipe3{
-  width: 30%;
-  height: 450px;
-  margin: 5%;
-  margin-left: 1%;
-  margin-right: 2%;
+  width: 27%;
+  height: 50%;
+  margin-left: 0%;
+  margin-right: 6%;
+  margin-top: 0%;
+  margin-bottom: 3.5%;
   background-color: white;
   display: inline-block;
   float: right;
   text-align: center;
+  background-color: transparent;
+  color: #ff3a19;
 }
+
+
+
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 200%;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #ee901c;
+  color: white;
+  transform: rotateY(180deg);
+  text-align: center;
+}
+
+/*p{
+  margin-top: 40%;
+}*/
+
+
 
 #home{
   text-align: right;
@@ -66,8 +183,11 @@ h1{
   margin: 0;
   padding: 1%;
   overflow: hidden;
-  position: fixed;
+  position: absolute;
   top: 0;
+  font-family: "Monaco X";
+  font-weight: bold;
+  font-size: 18px;
   /*background-color: #0d97ac;*/
 }
 
@@ -75,41 +195,41 @@ li {
   float: left;
 }
 
-li a, .dropbtn{
+li a/*, .dropbtn*/{
   display: block;
-  color: #e85a4f;
+  color: #ffffff;
   text-align: center;
   padding: 10px;
   text-decoration: none;
 }
 
-li a:hover, dropdown:hover .dropbtn{
-  background-color: #f8d8d5;
+li a:hover/*, dropdown:hover .dropbtn*/{
+  background-color: #b6b3a8;
 }
 
 /* The dropdown container */
-.dropdown {
+/*.dropdown {
   float: left;
   overflow: hidden;
 }
 
 /* Dropdown content "fun stuff" */
-.dropdown-content2{
+/*.dropdown-content2{
   display: none;
   position: relative;
-  max-width: 80px;
+  max-width: 116px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 10;
-  background-color: white;
+  background-color: #eab4cf;
 }
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content2 {
+/*.dropdown:hover .dropdown-content2 {
   display: block;
 }
 
 /*dropdown menu for "serious stuff"*/
-.dropdown-content1{
+/*.dropdown-content1{
   display: none;
   position: relative;
   max-width: 110px;
@@ -119,6 +239,6 @@ li a:hover, dropdown:hover .dropbtn{
 }
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content1 {
+/*.dropdown:hover .dropdown-content1 {
   display: block;
 }
