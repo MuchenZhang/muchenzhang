@@ -87,10 +87,10 @@ h1{
 #recipe1{
   width: 27%;
   height: 50%;
-  /*margin-left: 6%;
+  margin-left: 6%;
   margin-right: 0%;
   margin-top: 0%;
-  margin-bottom: 3.5%;*/
+  margin-bottom: 3.5%;
   display: inline-block;
   float: left;
   text-align: center;
@@ -101,10 +101,10 @@ h1{
 #recipe2{
   width: 27%;
   height: 50%;
-  /*margin-left: 3.5%;
+  margin-left: 3.5%;
   margin-right: 0%;
   margin-top: 0%;
-  margin-bottom: 3.5%;*/
+  margin-bottom: 3.5%;
   display: inline-block;
   float: center;
   text-align: center;
@@ -115,10 +115,10 @@ h1{
 #recipe3{
   width: 27%;
   height: 50%;
-  /*margin-left: 0%;
+  margin-left: 0%;
   margin-right: 6%;
   margin-top: 0%;
-  margin-bottom: 3.5%;*/
+  margin-bottom: 3.5%;
   display: inline-block;
   float: right;
   text-align: center;
