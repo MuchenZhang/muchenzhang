@@ -3,6 +3,7 @@ body{
   width: 100%;
   overflow-x: hidden;
   background-color: #eab4cf;
+  position: relative;
   /*background: linear-gradient(180deg, #eab4cf 0%, #b9c0f2 51%, #8ddeea 75%);*/
 }
 
@@ -186,6 +187,7 @@ h1{
   font-family: "Monaco X";
   font-weight: bold;
   font-size: 18px;
+  z-index: 10;
   /*background-color: #0d97ac;*/
 }
 
