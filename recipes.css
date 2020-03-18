@@ -126,22 +126,91 @@ h1{
   color: #ff3a19;
 }
 
-/*#recipe4{
-  width: 25%;
-  height: 48%;*/
-  /*margin-left: 0%;
-  margin-right: 6%;*/
-  /*margin-top: 0%;
-  margin-bottom: 0%;
-  display: inline-block;
-  float: right;
+.recipe {
+  position: relative;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.recipe:hover .image{
+  opacity: 0.5;
+}
+
+.recipe:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  width: 100%;
   background-color: transparent;
-  color: #ff3a19;
-}*/
+  color: white;
+  font-size: 150%;
+  font-weight: bold;
+}
 
+#button{
+  margin-top: 20%;
+}
 
-.flip-card {
+#button a:link{
+  color: white;
+  text-decoration: none;
+  border-style: solid;
+  border-color: white;
+  border-width: medium;
+  font-size: 120%;
+  padding: 7%;
+}
+
+#button a:visited {
+  text-decoration: none;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  border-width: medium;
+  font-size: 120%;
+  padding: 7%;
+}
+
+#button a:hover {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  border-style: solid;
+  border-color: white;
+  border-width: medium;
+  font-size: 120%;
+  padding: 7%;
+}
+
+#button a:active {
+  text-decoration: none;
+  border-style: solid;
+  border-color: white;
+  border-width: medium;
+  font-size: 120%;
+  padding: 7%;
+}
+
+/*.flip-card {
   background-color: transparent;
   width: 100%;
   height: 100%;
@@ -181,7 +250,7 @@ h1{
   color: white;
   transform: rotateY(180deg);
   text-align: center;
-}
+}*/
 
 /*p{
   margin-top: 40%;
