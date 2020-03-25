@@ -4,7 +4,7 @@ body{
   overflow-x: hidden;
   margin-left: 0%;
   margin-top: 0%;
-  background-color: #0ee6ec;
+  background-color: transparent;
   position: relative;
 }
 
@@ -18,7 +18,7 @@ body{
 #content1{
   font-size: 500%;
   color: #ffffff;
-  margin-left: 30%;
+  margin-left: 28%;
   text-align: center;
   font-family: "Georgia";
   font-weight: bold;
@@ -122,8 +122,8 @@ body{
   background-color: black;
   color: white;
   border-style: solid;
-  border-color: #0ee6ec;
-  border-width: 0px;
+  border-color: black;
+  border-width: 1px;
 }
 
 #button a:active {
@@ -133,7 +133,68 @@ body{
   border-width: 1px;
 }
 
+#main4{
+  width: 100%;
+  height: 60%;
+  background-color: black;
+  margin-top: -5%;
+}
 
+#text5{
+  color: white;
+  font-size: 400%;
+  font-weight: bold;
+  text-align: center;
+  top: 20%;
+  position: relative;
+}
+
+#text6{
+  color: white;
+  font-size: 150%;
+  text-align: center;
+  top: 15%;
+  position: relative;
+}
+
+#button2{
+  margin-left: 45%;
+  top: 25%;
+  position: relative;
+}
+
+#button2 a:link{
+  color: white;
+  text-decoration: none;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  padding: 2%;
+}
+
+#button2 a:visited {
+  text-decoration: none;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+#button2 a:hover {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+#button2 a:active {
+  text-decoration: none;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
 /*#home{
   text-align: right;
 }*/
