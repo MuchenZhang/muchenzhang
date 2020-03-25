@@ -144,7 +144,7 @@ body{
   color: white;
   font-size: 400%;
   text-align: center;
-  top: 20%;
+  top: 30%;
   position: relative;
 }
 
@@ -152,13 +152,13 @@ body{
   color: white;
   font-size: 150%;
   text-align: center;
-  top: 15%;
+  top: 25%;
   position: relative;
 }
 
 #button2{
   margin-left: 45%;
-  top: 25%;
+  top: 30%;
   position: relative;
 }
 
