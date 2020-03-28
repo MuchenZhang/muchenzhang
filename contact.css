@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body { background:#6ea5ee; }
+form { max-width:30%; margin:2% auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid white;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid white; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:white;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:black;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover {
+  background:black;
+  color: white;
+}
+
+#nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 1%;
+  overflow: hidden;
+  /*position: fixed;*/
+  top: 0;
+  font-family: "Monaco X";
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #6ea5ee;
+}
+
+li {
+  float: left;
+}
+
+li a/*, .dropbtn*/{
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+li a:hover/*, dropdown:hover .dropbtn*/{
+  background-color: #b6b3a8;
+}
+
+h4{
+  font-size: 300%;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Georgia";
+  font-weight: bold;
+  position: relative;
+}
