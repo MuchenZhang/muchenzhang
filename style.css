@@ -50,7 +50,7 @@ p{
   margin: 0;
   padding: 1%;
   overflow: hidden;
-  position: fixed;
+
   top: 0;
   font-family: "Monaco X";
   font-weight: bold;
@@ -72,6 +72,10 @@ li a/*, .dropbtn*/{
 
 li a:hover/*, dropdown:hover .dropbtn*/{
   background-color: #b6b3a8;
+}
+
+.active{
+  float: right;
 }
 
 /* The dropdown container */
