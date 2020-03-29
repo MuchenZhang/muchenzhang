@@ -290,7 +290,8 @@ li a/*, .dropbtn*/{
 }
 
 li a:hover/*, dropdown:hover .dropbtn*/{
-  background-color: #b6b3a8;
+  /*background-color: #b6b3a8;*/
+  transform: rotate(20deg);
 }
 
 /* The dropdown container */
