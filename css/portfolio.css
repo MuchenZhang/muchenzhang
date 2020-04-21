@@ -1,11 +1,11 @@
 @font-face{
   font-family: gameFont;
-  src: url(font/font.ttf);
+  src: url(../font/font.ttf);
 }
 
 @font-face{
   font-family: codeFont;
-  src: url(font/Anonymous.ttf);
+  src: url(../font/Anonymous.ttf);
 }
 
 body{
