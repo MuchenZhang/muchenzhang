@@ -1,0 +1,267 @@
+body{
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  margin-left: 0%;
+  margin-top: 0%;
+  background-color: transparent;
+  position: relative;
+}
+
+
+#main1{
+  width:100%;
+  height:100%;
+  background: #0ee6ec;
+}
+
+#content1{
+  font-size: 500%;
+  color: #ffffff;
+  margin-left: 30%;
+  text-align: center;
+  font-family: "Georgia";
+  font-weight: bold;
+  padding: 8%;
+  width: 25%
+}
+
+#main2{
+  width:100%;
+  height:110%;
+  background: #e7eae9;
+}
+
+
+
+#image {
+  height: 100%;
+  width: 80%;
+  margin: 10%;
+  float: left;
+}
+
+#text1{
+  width: 35%;
+  height: 60%;
+  margin-top: -60%;
+  margin-left: 50%;
+  display: inline-block;
+  text-align: left;
+  font-size: 200%;
+  font-weight: 500;
+  font-family: "Lucia Console";
+}
+
+#text2{
+  width: 35%;
+  height: 30%;
+  margin-top: -55%;
+  margin-left: 50%;
+  display: inline-block;
+  text-align: left;
+  font-size: 120%;
+  font-weight: 0.1;
+  font-family: "Garmond";
+}
+
+#main3{
+  width: 100%;
+  height: 70%;
+  margin-top: -5%;
+  background-color: white;
+}
+
+#text3{
+  position: relative;
+  top: -20%;
+  text-align: center;
+  font-size: 400%;
+  font-weight: lighter;
+  color: black;
+  font-family: "Cambria";
+}
+
+#text4{
+  width: 50%;
+  position: relative;
+  top: -25%;
+  margin-left: 25%;
+  text-align: center;
+  font-size: 150%;
+  font-weight: lighter;
+  color: black;
+  font-family: "Book Antiqua";
+
+}
+
+#button{
+  margin-left: 43%;
+  margin-top: -6%;
+}
+
+#button a:link{
+  color: black;
+  text-decoration: none;
+  border-style: solid;
+  border-color: #0ee6ec;
+  border-width: 1px;
+  padding: 2%;
+}
+
+#button a:visited {
+  text-decoration: none;
+  color: black;
+  border-style: solid;
+  border-color: #0ee6ec;
+  border-width: 1px;
+}
+
+#button a:hover {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+#button a:active {
+  text-decoration: none;
+  border-style: solid;
+  border-color: #0ee6ec;
+  border-width: 1px;
+}
+
+#main4{
+  width: 100%;
+  height: 60%;
+  background-color: black;
+  margin-top: -5%;
+}
+
+#text5{
+  color: white;
+  font-size: 400%;
+  text-align: center;
+  top: 30%;
+  position: relative;
+}
+
+#text6{
+  color: white;
+  font-size: 150%;
+  text-align: center;
+  top: 25%;
+  position: relative;
+}
+
+#button2{
+  margin-left: 45%;
+  top: 30%;
+  position: relative;
+}
+
+#button2 a:link{
+  color: white;
+  text-decoration: none;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  padding: 2%;
+}
+
+#button2 a:visited {
+  text-decoration: none;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+#button2 a:hover {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+#button2 a:active {
+  text-decoration: none;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+/*#home{
+  text-align: right;
+}*/
+
+#nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 1%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  font-family: "Monaco X";
+  font-weight: bold;
+  font-size: 25px;
+  background-color: #0ee6ec;
+  width: 100%;
+  z-index: 10;
+}
+
+li {
+  float: left;
+}
+
+li a/*, .dropbtn*/{
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+li a:hover/*, dropdown:hover .dropbtn*/{
+  /*background-color: #b6b3a8;*/
+  text-shadow: 1px 1px #fe4902, 2px 2px #fe4902, 3px 3px #fe4902, 4px 4px #fe4902, 5px 5px #fe4902, 6px 6px #fe4902;
+}
+
+/* The dropdown container */
+/*.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown content "fun stuff" */
+/*.dropdown-content2{
+  display: none;
+  position: relative;
+  max-width: 116px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 10;
+  background-color: #0ee6ec;
+}
+
+/* Show the dropdown menu on hover */
+/*.dropdown:hover .dropdown-content2 {
+  display: block;
+}
+
+/*dropdown menu for "serious stuff"*/
+/*.dropdown-content1{
+  display: none;
+  position: relative;
+  max-width: 110px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 10;
+  background-color: white;
+}
+
+/* Show the dropdown menu on hover */
+/*.dropdown:hover .dropdown-content1 {
+  display: block;
+}
