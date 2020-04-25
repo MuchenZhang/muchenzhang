@@ -1,0 +1,55 @@
+@font-face{
+  font-family: gameFont;
+  src: url(font/font.ttf);
+}
+
+body {
+text-align: center;
+background-color: white;
+}
+
+#header{
+  background-color: white;
+  margin: 80px;
+}
+
+h1{
+  font-family: gameFont;
+  font: 40px;
+  left: 0;
+  line-height: 15px;
+  margin-top: 0px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  color: #ff3a19;
+}
+
+.description{
+  position: relative;
+  display: inline-block;
+  width: 70%;
+  margin: 3%;
+}
+
+#nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 1%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  /*background-color: #0d97ac;*/
+}
+
+li a, .dropbtn{
+  display: block;
+  color: #e85a4f;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+li a:hover, dropdown:hover .dropbtn{
+  background-color: #f8d8d5;
+}
