@@ -1,3 +1,13 @@
+@font-face{
+  font-family: joe;
+  src: url(../font/joe.ttf);
+}
+
+@font-face{
+  font-family: joeLight;
+  src: url(../font/joeLight.ttf);
+}
+
 body{
   height: 100%;
   width: 100%;
@@ -20,7 +30,7 @@ body{
   color: #ffffff;
   margin-left: 29%;
   text-align: center;
-  font-family: "Georgia";
+  font-family: joe;
   font-weight: bold;
   padding: 8%;
   width: 25%
@@ -28,7 +38,7 @@ body{
 
 
 #main2{
-  height: 85%;
+  height: 70%;
   width: 100%;
   background: white;
 }
@@ -40,7 +50,7 @@ body{
   font-size: 400%;
   font-weight: 100;
   color: black;
-  font-family: "Cambria";
+  font-family: joe;
 }
 
 #text2{
@@ -52,7 +62,7 @@ body{
   font-size: 170%;
   font-weight: 100;
   color: black;
-  font: 170%/1.5 "Consolas";
+  font: 170%/1.5 joeLight;
 }
 
 #main3{
@@ -62,8 +72,8 @@ body{
 }
 
 /*Recipes*/
-h1{
-  font-family: "Georgia";
+/*h1{
+  font-family: joe;
   font-weight: bold;
   font-size: 500%;
   left: 0;
@@ -73,12 +83,12 @@ h1{
   text-align: center;
   width: 100%;
   color: #ffffff;
-}
+}*/
 
 #text3{
   color: white;
   font-size: 400%;
-  font-family: "Georgia";
+  font-family: joe;
   font-weight: bold;
   text-align: center;
   margin-top: 10%;
