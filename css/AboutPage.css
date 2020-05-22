@@ -1,3 +1,8 @@
+@font-face{
+  font-family: codeFont;
+  src: url(font/Anonymous.ttf);
+}
+
 body{
   height: 100%;
   width: 100%;
@@ -28,18 +33,28 @@ body{
 
 #main2{
   width:100%;
-  height:130%;
-  background: #e7eae9;
-}
-
-
-
-.codePic{
+  height:90%;
+  background: #d4eaea;
   position: relative;
-  top: 10%;
-  left: 20%;
+  margin-top: -1.1%;
 }
 
+#box{
+  height: 90%;
+  width: 50%;
+  background-color:#d4dfea;
+  position: relative;
+  margin-left: 25%;
+  top: 5%;
+}
+
+#text1{
+  font-family: codeFont;
+  font-size: 90%;
+  position: relative;
+  top: 2%;
+  left: 2%;
+}
 
 
 #main3{
