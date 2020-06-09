@@ -1,39 +1,26 @@
 @font-face{
   font-family: joe;
-  src: url(../font/joe.ttf);
+  src: url(font/joe.ttf);
 }
 
 @font-face{
   font-family: joeLight;
-  src: url(../font/joeLight.ttf);
+  src: url(font/joeLight.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+*{
+  margin: 0;
+  padding:0;
+  /*font-family: 'Poppins', sans-serif;*/
 }
 
 body{
-  height: 100%;
-  width: 100%;
-  overflow-x: hidden;
-  margin-left: 0%;
-  margin-top: 0%;
-  background-color: #a2d6a2;
-  position: relative;
-  /*background: linear-gradient(180deg, #eab4cf 0%, #b9c0f2 51%, #8ddeea 75%);*/
-}
-
-#main1{
-  width:100%;
-  height:82%;
   background: #a2d6a2;
-}
-
-#header{
-  font-size: 500%;
-  color: #ffffff;
-  margin-left: 29%;
-  text-align: center;
-  font-family: joe;
-  font-weight: bold;
-  padding: 8%;
-  width: 25%
+  height: 100%;
+  overflow-x: hidden;
+  /*min-height:1500px;*/
 }
 
 
@@ -70,20 +57,6 @@ body{
   width: 100%;
   background: #a2d6a2;
 }
-
-/*Recipes*/
-/*h1{
-  font-family: joe;
-  font-weight: bold;
-  font-size: 500%;
-  left: 0;
-  line-height: 15px;
-  margin-top: 0px;
-  position: relative;
-  text-align: center;
-  width: 100%;
-  color: #ffffff;
-}*/
 
 #text3{
   color: white;
@@ -217,70 +190,19 @@ body{
   padding: 7%;
 }
 
-/*.flip-card {
-  background-color: transparent;
-  width: 100%;
-  height: 100%;
-  perspective: 1000px;
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  font-size: 200%;
-  transition: transform 0.5s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
-.flip-card-back {
-  background-color: #ee901c;
-  color: white;
-  transform: rotateY(180deg);
-  text-align: center;
-}*/
-
-/*p{
-  margin-top: 40%;
-}*/
-
-
-
-/*#home{
-  text-align: right;
-}*/
 
 #nav ul {
   list-style-type: none;
   margin: 0;
   padding: 1%;
   overflow: hidden;
-  position: relative;
+  position: absolute;
   top: 0;
   font-family: "Monaco X";
   font-weight: bold;
   font-size: 25px;
-  z-index: 10;
-  background-color: #a2d6a2;
+  z-index: 10001;
+  background-color: transparent;
   width: 100%;
 }
 
@@ -301,38 +223,63 @@ li a:hover/*, dropdown:hover .dropbtn*/{
   text-shadow: 1px 1px #fe4902, 2px 2px #fe4902, 3px 3px #fe4902, 4px 4px #fe4902, 5px 5px #fe4902, 6px 6px #fe4902;
 }
 
-/* The dropdown container */
-/*.dropdown {
-  float: left;
+
+section{
+  position:relative;
+  width: 100%;
+  height: 100vh;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* Dropdown content "fun stuff" */
-/*.dropdown-content2{
-  display: none;
+section:before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top, #a2d6a2, transparent);
+  z-index: 10000;
+}
+
+section:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+  /*background: #0a2a43;
+  mix-blend-mode: color;*/
+}
+
+section img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+#text{
   position: relative;
-  max-width: 116px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 10;
-  background-color: #eab4cf;
+  color: #fff;
+  font-size: 10em;
+  font-family: joe;
+  z-index: 1;
 }
 
-/* Show the dropdown menu on hover */
-/*.dropdown:hover .dropdown-content2 {
-  display: block;
+#road{
+  z-index: 2;
 }
 
-/*dropdown menu for "serious stuff"*/
-/*.dropdown-content1{
-  display: none;
-  position: relative;
-  max-width: 110px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 10;
-  background-color: white;
+#moon{
+  z-index: 2;
 }
 
-/* Show the dropdown menu on hover */
-/*.dropdown:hover .dropdown-content1 {
-  display: block;
-}
+
