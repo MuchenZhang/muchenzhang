@@ -1,11 +1,11 @@
 @font-face{
   font-family: gameFont;
-  src: url(../font/font.ttf);
+  src: url(font/font.ttf);
 }
 
 @font-face{
   font-family: codeFont;
-  src: url(../font/Anonymous.ttf);
+  src: url(font/Anonymous.ttf);
 }
 
 body{
@@ -41,17 +41,17 @@ body{
   background: white;
 }
 
-.container{
+.container1{
   text-decoration: none;
   display: flex;
   flex-wrap: nowrap;
   margin: 7%;
   width: 60%;
-  height: 45.5%;
+  height: 35.5%;
   margin-left: 20%;
 }
 
-.container:hover{
+.container1:hover{
   background-color: #f4f3f3;
   transition: 0.3s;
 }
@@ -59,6 +59,7 @@ body{
 .half{
   position: relative;
   width: calc(100% / 2);
+  bottom: calc(100% / 5);
 }
 
 .text{
