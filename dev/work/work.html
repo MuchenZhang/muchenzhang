@@ -1,0 +1,70 @@
+<head>
+  <title> Work </title>
+  <link href="work.css" type="text/css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Karla:wght@500&family=Oxygen:wght@300&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="outer-wrapper">
+  <div class="wrapper">
+  <div class="slide one">
+
+
+  <!-- SCROLL TO SEE PRIJECTS title  -->
+  <p class="title">Scroll Down to View Projects</p>
+
+
+
+  <!-- For the aliens animation -->
+  <div class="Centerbox">
+
+    <div class="Alien1">
+      <img class="Alien1_spritesheet" src="space-invaders-spritesheet.png" alt="alien" draggable="false" (dragstart)="false;">
+    </div>
+
+    <div class="Alien1">
+      <img class="Alien1_spritesheet" src="space-invaders-spritesheet.png" alt="alien" draggable="false" (dragstart)="false;">
+    </div>
+
+    <div class="Alien1">
+      <img class="Alien1_spritesheet" src="space-invaders-spritesheet.png" alt="alien" draggable="false" (dragstart)="false;">
+    </div>
+
+    <div class="Alien1">
+      <img class="Alien1_spritesheet" src="space-invaders-spritesheet.png" alt="alien" draggable="false" (dragstart)="false;">
+    </div>
+
+    <div class="Alien1">
+      <img class="Alien1_spritesheet" src="space-invaders-spritesheet.png" alt="alien" draggable="false" (dragstart)="false;">
+    </div>
+
+    <div class="Alien1">
+      <img class="Alien1_spritesheet" src="space-invaders-spritesheet.png" alt="alien" draggable="false" (dragstart)="false;">
+    </div>
+  </div>
+
+
+<!--For Parallax Effect -->
+  <div id="spaceship">
+    <img class="spaceship_spritesheet layer" data-depth-x="-40" src="spaceship.gif" alt="spaceship" draggable="false" (dragstart)="false;">
+  </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+
+<script>
+  var spaceship = document.getElementById('spaceship');
+  var parallaxInstance = new Parallax(spaceship);
+</script>
+
+</div>
+
+<div class="slide two"></div>
+<div class="slide three"></div>
+<div class="slide four"></div>
+
+</div>
+</div>
+
+</body>

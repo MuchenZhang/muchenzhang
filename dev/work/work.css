@@ -1,0 +1,137 @@
+@font-face{
+  font-family: fipps;
+  src: url(fipps.otf);
+}
+
+:root{
+  --pixel-size: 0.7;
+  --pixel-size-spaceship: 1;
+}
+
+body{
+  background: #333333;
+  /*overflow: hidden;*/
+  margin: 0;
+  padding: 0;
+}
+
+.Centerbox{
+  width: calc(900 * var(--pixel-size));
+  height: 220px;
+  margin: auto calc(50% - 450px * var(--pixel-size));
+}
+
+.Alien1{
+  width: calc(150px * var(--pixel-size));
+  height: calc(220px * var(--pixel-size));
+  overflow: hidden;
+  float: left;
+  position: relative;
+  margin: 12em auto;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.Alien1_spritesheet{
+  animation: moveSpriteSheet 1s steps(2) 5;
+  width: calc(585px * var(--pixel-size));
+  position: absolute;
+}
+
+@keyframes moveSpriteSheet{
+  from{
+    transform: translate3d(0px, 0, 0);
+  }
+  to{
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+
+/*.title{
+  color: limegreen;
+  font-size: 400%;
+  font-family: fipps;
+  position: absolute;
+  margin: 1.8em calc(50% - 285px);
+}
+
+#right{
+  text-decoration: none;
+  color: limegreen;
+}*/
+
+
+#spaceship{
+  float: left;
+  position: relative;
+  margin: 10em calc(50% - 40px * var(--pixel-size-spaceship));
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.spaceship_spritesheet{
+  position: relative;
+}
+
+
+/* Scroll to see projects title */
+.title{
+  color: white;
+  display: inline-block;
+  position: relative;
+  color: limegreen;
+  font-size: 150%;
+  font-family: fipps;
+  margin: 2em calc(50% - 285px) -3em;
+}
+
+
+
+/* for horizontal scroll */
+.slide{
+  width: 100vw;
+  height: 100vh;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  width: 400vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+
+.one{
+  background-color: #333333;
+}
+
+.two{
+  background-color: #a3f3d3;
+}
+
+.three{
+  background-color: #0bbaa0;
+}
+
+.four{
+  background-color: #00dfdf;
+}
+
+.outer-wrapper{
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}

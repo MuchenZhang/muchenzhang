@@ -1,0 +1,53 @@
+<head>
+  <title> Muchen Zhang </title>
+  <link href="grid.css" type="text/css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Karla:wght@500&family=Oxygen:wght@300&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="wrapper">
+  <div class="box header">
+  	<ul>
+      <li class="nav"><a class="link" href="index.html">127.0.0.1</a></li>
+  		<li class="nav"><a class="link" href="work/work.html">Work</a></li>
+  		<li class="nav"><a class="link" href="play/play.html">Play</a></li>
+  	</ul>
+  </div>
+  <div class="box myName"><b>Muchen Zhang</b></div>
+
+  <div class="box content">
+  	<b>Noun: Muchen [uncountable]</b><br>
+    A female homosapien whose goal is to become a successful game developer and baker.<br><br>
+    
+  	<b>Verb: muchen; 3rd person persent: muchens; past tense: muchened; past participle: muchened; gerund: muchening</b>
+    <ol>
+      <li>Acting unexpectedly, often in a nerdy manner. e.g. He's pulling a muchen again (He is playing 2048 on his laptop in the middle of class).</li>
+      <li>Delay or postpone smth; put off doing smth and focus on irrelavent tasks. e.g. I muchened yesterday and didn't study for the test (I chose to bake a cake instead of studying for the Topic 11 test on EM induction).</li>
+    </ol>
+  </div>
+
+  <div class="box smallText">/muːtʃɛn/ 
+  	<audio src="muchen-pronunciation.mp3" id="audio"></audio>
+  	<button type="button" class="play-sound-btn"><img src="speaker.svg" width="18"></button>
+  </div>
+
+  <div class="box largeText">
+  	<i>noun, verb</i>
+  </div>
+
+  <div class="box mediumText">
+    <b>USAGE NOTE</b> &nbsp &nbsp The inappropriate use of <i>muchen</i> should be avoided. It should not be seen in the same sentence along with words such as <i>love, avocado, on,</i> and <i> toast</i>.
+  </div>
+
+</div>
+</body>
+
+<script>
+	const soundBtn = document.querySelector('.play-sound-btn');
+	let myAudio = document.querySelector('#audio');
+	soundBtn.addEventListener('click',()=>{
+		myAudio.play(); //play the audio after click
+	});
+</script>
