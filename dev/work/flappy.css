@@ -1,0 +1,60 @@
+body {
+    margin: 10%;
+    background-color: #d7d1cb;
+    text-align: center;
+}
+
+#header{
+    background-color: white;
+    margin: 80px;
+  }
+  
+  h1{
+    font-family: 'Cormorant', serif;
+    font-size: 3.5vw;
+    left: 0;
+    line-height: 15px;
+    margin-top: 0px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: #686365;
+  }
+  
+  .description{
+    font-family: 'Cormorant', serif;
+    font-size: 1.2vw;
+    position: relative;
+    display: inline-block;
+    width: 70%;
+    margin: 3%;
+  }
+  
+  .video{
+  
+  }
+  
+  #nav{
+    font-family: 'Cormorant', serif;
+    font-size: 1.5vw;
+    list-style-type: none;
+    margin: 0;
+    padding: 1%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    /*background-color: #0d97ac;*/
+  }
+  
+  li a, .dropbtn{
+    display: block;
+    color: #686365;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  #myParagraphs{
+    text-align: left;
+  }
+  
