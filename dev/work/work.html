@@ -4,6 +4,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Karla:wght@500&family=Oxygen:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Montserrat:wght@300;600&display=swap" rel="stylesheet">  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -12,58 +13,80 @@
   <div class="wrapper">
   <div class="slide one">
 
+    <!-- SCROLL TO SEE PRIJECTS title  -->
+    <p class="title">Scroll Down to View Projects</p>
 
-  <!-- SCROLL TO SEE PRIJECTS title  -->
-  <p class="title">Scroll Down to View Projects</p>
+    <!-- For the aliens animation -->
+    <div class="Centerbox">
 
+      <div class="Alien1">
+        <img class="Alien1_spritesheet" src="space-invaders-spritesheet.png" alt="alien" draggable="false" (dragstart)="false;">
+      </div>
 
+      <div class="Alien1">
+        <img class="Alien1_spritesheet" src="space-invaders-spritesheet.png" alt="alien" draggable="false" (dragstart)="false;">
+      </div>
 
-  <!-- For the aliens animation -->
-  <div class="Centerbox">
+      <div class="Alien1">
+        <img class="Alien1_spritesheet" src="space-invaders-spritesheet.png" alt="alien" draggable="false" (dragstart)="false;">
+      </div>
 
-    <div class="Alien1">
-      <img class="Alien1_spritesheet" src="space-invaders-spritesheet.png" alt="alien" draggable="false" (dragstart)="false;">
+      <div class="Alien1">
+        <img class="Alien1_spritesheet" src="space-invaders-spritesheet.png" alt="alien" draggable="false" (dragstart)="false;">
+      </div>
+
+      <div class="Alien1">
+        <img class="Alien1_spritesheet" src="space-invaders-spritesheet.png" alt="alien" draggable="false" (dragstart)="false;">
+      </div>
+
+      <div class="Alien1">
+        <img class="Alien1_spritesheet" src="space-invaders-spritesheet.png" alt="alien" draggable="false" (dragstart)="false;">
+      </div>
     </div>
 
-    <div class="Alien1">
-      <img class="Alien1_spritesheet" src="space-invaders-spritesheet.png" alt="alien" draggable="false" (dragstart)="false;">
-    </div>
 
-    <div class="Alien1">
-      <img class="Alien1_spritesheet" src="space-invaders-spritesheet.png" alt="alien" draggable="false" (dragstart)="false;">
-    </div>
+    <!--For Parallax Effect -->
+      <div id="spaceship">
+        <img class="spaceship_spritesheet layer" data-depth-x="-40" src="spaceship.gif" alt="spaceship" draggable="false" (dragstart)="false;">
+      </div>
 
-    <div class="Alien1">
-      <img class="Alien1_spritesheet" src="space-invaders-spritesheet.png" alt="alien" draggable="false" (dragstart)="false;">
-    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 
-    <div class="Alien1">
-      <img class="Alien1_spritesheet" src="space-invaders-spritesheet.png" alt="alien" draggable="false" (dragstart)="false;">
-    </div>
-
-    <div class="Alien1">
-      <img class="Alien1_spritesheet" src="space-invaders-spritesheet.png" alt="alien" draggable="false" (dragstart)="false;">
-    </div>
+    <script>
+      var spaceship = document.getElementById('spaceship');
+      var parallaxInstance = new Parallax(spaceship);
+    </script>
   </div>
 
-
-<!--For Parallax Effect -->
-  <div id="spaceship">
-    <img class="spaceship_spritesheet layer" data-depth-x="-40" src="spaceship.gif" alt="spaceship" draggable="false" (dragstart)="false;">
+<div class="slide two">
+  <div class="outside-margin">
+    <div class="parent">
+        <div class="div1 card">
+          <div class="card-title">Meeting Scheduler</div>
+          <div class="card-content">PHP, SQL, js, html, css</div><br>
+          <a href="meeting.html"><div class="gg-arrow-long-right"></div></a>
+        </div>
+      <div class="div2 card">
+        <div class="card-title">Calorie Counter</div>
+        <div class="card-content">PHP, SQL, js, html, css</div><br>
+        <a href="calorie.html"><div class="gg-arrow-long-right"></div></a>
+      </div>
+      <div class="div3 card">
+        <div class="card-title">Flappy Bird</div>
+        <div class="card-content">Game developed with Lua</div><br>
+        <a href="flappy.html"><div class="gg-arrow-long-right"></div></a>
+      </div>
+      <div class="div4 card">
+        <div class="card-title">Little Billy</div>
+        <div class="card-content">Knock-off version of Mario Bros, developed with Lua</div><br>
+        <a href="billy.html"><div class="gg-arrow-long-right"></div></a>
+      </div>
+      <div class="div5 card"> </div>
+      <div class="div6 card"> </div>
+    </div>
   </div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-
-<script>
-  var spaceship = document.getElementById('spaceship');
-  var parallaxInstance = new Parallax(spaceship);
-</script>
-
 </div>
 
-<div class="slide two"></div>
-<div class="slide three"></div>
-<div class="slide four"></div>
 
 </div>
 </div>
