@@ -9,7 +9,7 @@
 }
 
 body{
-  background: #686365;
+  background: #2e312e;
   overflow: hidden;
   margin: 0;
   padding: 0;
@@ -82,7 +82,7 @@ body{
   color: 	#d7d1cb;
   display: inline-block;
   position: relative;
-  color: #2e312e;
+  color: 	#82837d;
   font-size: 150%;
   font-family: fipps;
   margin: 2em calc(50% - 285px) -3em;
@@ -99,26 +99,23 @@ body{
 .wrapper{
   display: flex;
   flex-direction: row;
-  width: 400vw;
+  width: 200vw;
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
 }
 
 .one{
-  background-color: #82837d;
+  background-color: #2e312e;
 }
 
 .two{
-  background-color: #a3f3d3;
+  background-color: #2e312e;
 }
 
 .three{
-  background-color: #0bbaa0;
+  background-color: #2e312e;
 }
 
-.four{
-  background-color: #00dfdf;
-}
 
 .outer-wrapper{
   width: 100vh;
@@ -134,4 +131,66 @@ body{
 
 ::-webkit-scrollbar{
   display: none;
+}
+
+.outside-margin {
+  margin: 40px;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.div1 { grid-area: 2 / 1 / 5 / 2; }
+.div2 { grid-area: 2 / 2 / 5 / 3; }
+.div3 { grid-area: 2 / 3 / 5 / 4; }
+.div4 { grid-area: 5 / 1 / 8 / 2; }
+.div5 { grid-area: 5 / 2 / 8 / 3; }
+.div6 { grid-area: 5 / 3 / 8 / 4; }
+
+.card {
+  background-color: #434642;
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 4.5vw;
+  font-family: 'Cormorant', serif;
+  color: #d7d1cb;
+}
+
+.card-content {
+  font-family: 'Cormorant', serif;
+  color: #d7d1cb;
+}
+
+.gg-arrow-long-right {
+  color: #d7d1cb;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs,1));
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  box-shadow: inset 0 0 0 2px;
+  width: 24px;
+  height: 6px;
+}
+.gg-arrow-long-right::after {
+  color: #d7d1cb;
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-top: 2px solid;
+  border-right: 2px solid;
+  transform: rotate(45deg);
+  right: 0;
+  bottom: -2px
 }
