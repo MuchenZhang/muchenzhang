@@ -55,7 +55,7 @@ a {
 
 a:hover {
 	font-style: italic;
-	transform: translate(3px, 0);
+	transform: translate(5px, 0);
 }
 
 button{
