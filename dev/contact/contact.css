@@ -1,0 +1,39 @@
+body {
+    margin: 10%;
+    background-color: #2e312e;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+    
+.div1 { 
+    grid-area: 1 / 1 / 2 / 2; 
+}
+
+.title {
+    font-size: 13.5vw;
+    font-family: 'Cormorant', serif;
+    color: #d7d1cb;
+}
+
+.text {
+    font-size: 1.8vw;
+    font-family: 'Cormorant', serif;
+    color: #d7d1cb;
+
+}
+
+a {
+	color: #d8d1cb;
+  	display: inline-block;
+}
+
+a:hover {
+	font-style: italic;
+    text-decoration: none;
+}
