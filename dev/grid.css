@@ -1,75 +1,61 @@
 body {
-  margin: 40px;
-  background-color: #e1e2d3;
+  margin: 80px;
+  background-color: #d7d1cb;
 }
 
-.myName {
-	grid-area: myName;
-	font-size: 6.5vw;
-	color: #ff9636;
+.parent {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+}
+	
+.div1 { 
+	grid-area: 1 / 2 / 2 / 3; 
+	font-size: 9.5vw;
+	font-family: 'Cormorant', serif;
+}
+
+.div2 { 
+	grid-area: 2 / 2 / 3 / 3; 
+	font-size: 9.5vw;
+	font-family: 'Cormorant', serif;
+}
+
+.div3 { 
+	grid-area: 3 / 2 / 4 / 3; 
+	font-size: 9.5vw;
+	font-family: 'Cormorant', serif;
+}
+
+.div4 { 
+	grid-area: 4 / 2 / 5 / 3; 
+	font-size: 9.5vw;
+	font-family: 'Cormorant', serif;
+}
+
+.div5 { 
+	grid-area: 4 / 1 / 5 / 2;
 }
 
 .content {
-	grid-area: content;
-	font-size: 1.22vw;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 80px;
+	margin-right: 40px;
+	color: #434642;
 }
 
-.smallText{
-	grid-area: smallText;
-	font-size: 150%;
-}
-
-.mediumText{
-	grid-area: mediumText;
-	background-color: #ff9636;
-	font-size: 1.3vw;
-}
-
-.largeText{
-	grid-area: largeText;
-	font-size: 150%;
-}
-
-.header {
-	grid-area: header;
-}
-
-ul{
-	display: flex;
-}
-
-.nav{
-	list-style: none;
-	margin: 0 30px 0 0;
-	font-family: 'Karla', sans-serif;
-}
-
-.link{
-	color: black;
+a {
+	color: #434642;
 	text-decoration: none;
+	transition: transform .5s ease-out;
+  	display: inline-block;
 }
 
-
-.wrapper {
-   width: calc(100vw - 80px);
-   height: calc(100vh - 80px);
-   display: grid;
-   grid-gap: 20px;
-   grid-template-rows: 80px 150px 60px 220px 80px;
-   grid-template-columns: repeat(4, 1fr);
-   grid-template-areas:
-          ". .  . header"
-          "myName myName . ."
-          ". smallText largeText largeText"
-          ". content content content"
-          ". mediumText mediumText footer";
-   background-color: #e1e2d3;
-}
-
-.box {
-  border-radius: 2px;
-  padding: 10px;
-  /*border: 1px dashed;*/
+a:hover {
+	font-style: italic;
+	transform: translate(3px, 0);
 }
 
 button{
